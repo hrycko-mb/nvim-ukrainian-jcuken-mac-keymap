@@ -1,3 +1,7 @@
+" Ukrainian JCUKEN Mac keymap for Neovim
+" MIT License
+" Copyright (c) 2025 Hryhorii Biloshenko
+" Last Changed: 03.06.2025
 scriptencoding utf-8
 
 let b:keymap_name = "uk"
