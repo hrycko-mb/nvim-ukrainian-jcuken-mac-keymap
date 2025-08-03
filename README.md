@@ -1,16 +1,16 @@
+
 # Ukrainian Neovim keymap for Apple keyboard
 
 New Apple MacBooks and probably other Apple keyboards have new and a bit different layout than 
 other or older Apple keyboards. This includes changing positions of buttons like 
-`\``, `~`, `§`, `±` in English and `/`, `\`, `ґ`, `Ґ`, `₴` in Ukrainian.
+`` ` ``, `~`, `§`, `±` in English and `/`, `\`, `ґ`, `Ґ`, `₴` in Ukrainian.
 
 This keymap allows to have all Ukrainian symbols as expected by (drawn on) the Apple keyboard layout.
 
 Also, many Ukrainian keymaps for Neovim seem to be created from ~~russian~~ keymaps and use their naming of letters.
-This keymap tries to fix this issue too.
+This keymap fixes this issue too.
 
-And as a bonus, quickly typing `\\` (in Ukrainian layout) would insert an accent sign on 
-the previous letter, like `а́`.
+And as a bonus, quickly typing `\\` (in Ukrainian layout) would insert an accent sign on the previous letter, like `а́`.
 
 
 ## Installation
@@ -65,7 +65,8 @@ end, {})
 
 This will create 2 commands `UA` and `EN` which will change the language correspondingly.
 
-See documentation for more:
-https://neovim.io/doc/user/usr_45.html#_language-for-messages +
-https://neovim.io/doc/user/options.html#'keymap' +
+See documentation for more: \
+https://neovim.io/doc/user/usr_45.html#_language-for-messages \
+https://neovim.io/doc/user/options.html#'keymap'  \
 https://neovim.io/doc/user/options.html#'spelllang'
+
