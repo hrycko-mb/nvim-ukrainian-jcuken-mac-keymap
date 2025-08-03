@@ -66,7 +66,7 @@ end, {})
 This will create 2 commands `UA` and `EN` which will change the language correspondingly.
 
 See documentation for more: \
-https://neovim.io/doc/user/usr_45.html#_language-for-messages \
-https://neovim.io/doc/user/options.html#'keymap'  \
-https://neovim.io/doc/user/options.html#'spelllang'
+<https://neovim.io/doc/user/usr_45.html#_language-for-messages> \
+<https://neovim.io/doc/user/options.html#'keymap'>  \
+<https://neovim.io/doc/user/options.html#'spelllang'>
 
