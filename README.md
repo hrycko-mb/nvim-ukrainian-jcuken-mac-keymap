@@ -42,7 +42,7 @@ and putting it in your configuration path (probably `~/.config/nvim`) as
 To activate the keymap add the following configuration to your lua config:
 ```lua
 vim.o.keymap = 'ukrainian-jcuken-mac' -- sets the actual keymap
-vim.o.spelllang = 'ua' -- sets spell checking language (remove, if you don't use it)
+vim.o.spelllang = 'ua' -- sets spell checking language (requires spell file)
 vim.cmd 'language uk_UA.UTF-8' -- sets Neovim language (useful when you don't have Ukrainian locale)
 ```
 
